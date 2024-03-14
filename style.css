@@ -1,0 +1,18 @@
+body {
+    cursor: url("cursor.png"), auto;
+
+    background-image: url(img/backgroundwarm.png);
+    background-color: peachpuff;
+    background-size: cover;
+
+    padding-left: 30%;
+
+    }
+
+img.flower-gif{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
