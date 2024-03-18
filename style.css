@@ -1,18 +1,67 @@
+* {
+    cursor: url("img/cursorsmall.png"), auto;
+}
+
 body {
-    cursor: url("cursor.png"), auto;
+   
 
-    background-image: url(img/backgroundwarm.png);
-    background-color: peachpuff;
+    background-image: url("img/backgroundwarm.png");
+    background-color: tomato;
     background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    /* margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; */
 
-    padding-left: 30%;
 
     }
 
 img.flower-gif{
-    width: 50%;
+    width: 25%;
     height: auto;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+img.flower-gif2{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+img.flowers{
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    text-align: center; /* Center the content horizontally */
+  }
+
+.button {
+    margin: 5px auto;
+    display: block;
+    padding: 10px 20px; /* Add padding to make the buttons more clickable */
+    background-color: #4CAF50; /* Set the background color of the buttons */
+    color: white; /* Set the text color of the buttons */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+
+  
+  /* .section {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    color: white;
+  } */
