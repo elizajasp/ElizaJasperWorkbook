@@ -33,14 +33,32 @@ img.flower-gif2{
     right: 1%;
 }
 
+img.workbook-gif{
+    width: 70%;
+    position: absolute;
+    display: block;
+    margin-left: 14%;
+    margin-top: 3%;
+}
+
+img.interactivemedia{
+    width: 40%;
+    position: absolute;
+    display: block;
+    margin-left: 28%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
 img.flowers{
     width: 100%;
     padding-left: 0;
     margin-left: 0;
+    margin-top: 30%;
 }
 
 .button-container {
-    position: fixed;
+    position: absolute;
     bottom: 5%;
     width: 100%;
     text-align: center; /* Center the content horizontally */
@@ -52,8 +70,8 @@ img.flowers{
     padding: 10px 20px; /* Add padding to make the buttons more clickable */
     background-color: #4CAF50; /* Set the background color of the buttons */
     color: white; /* Set the text color of the buttons */
-    border: none; /* Remove default button border */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    border: none; 
+    cursor: pointer; 
   }
 
 
