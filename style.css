@@ -14,8 +14,12 @@ body {
     padding: 0;
     font-family: Arial, sans-serif; */
 
-
     }
+
+.content {
+    position: relative;
+    height: calc(100% - 100px); /* Adjust as needed */
+  }
 
 img.flower-gif{
     width: 25%;
@@ -46,34 +50,72 @@ img.interactivemedia{
     position: absolute;
     display: block;
     margin-left: 28%;
-    margin-top: 30%;
+    margin-top: 33%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }
 
 img.flowers{
     width: 100%;
     padding-left: 0;
     margin-left: 0;
-    margin-top: 30%;
+    /* margin-top: 30%; */
 }
 
-.button-container {
+/* .button-container {
     position: absolute;
     bottom: 5%;
-    width: 100%;
-    text-align: center; /* Center the content horizontally */
+    width: 10%;
+    text-align: center;
   }
 
-.button {
+.button1 {
     margin: 5px auto;
     display: block;
-    padding: 10px 20px; /* Add padding to make the buttons more clickable */
-    background-color: #4CAF50; /* Set the background color of the buttons */
-    color: white; /* Set the text color of the buttons */
-    border: none; 
-    cursor: pointer; 
+    cursor: pointer;
+    width: 30px; 
   }
 
+  .button2 {
+    margin: 5px auto;
+    display: block;
+    cursor: pointer; 
+  } */
 
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: black;
+  }
   
   /* .section {
     height: 100vh;
