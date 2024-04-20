@@ -50,7 +50,7 @@ img.interactivemedia{
     position: absolute;
     display: block;
     margin-left: 28%;
-    margin-top: 3%;
+    margin-top: 350px;
 }
 
 footer {
@@ -97,12 +97,13 @@ img.flowers{
 
   .button-container {
     text-align: center;
+    margin-top: 500px;
   }
   
   .button {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 3 auto;
     background-color: tomato;
     color: white;
     text-align: center;
