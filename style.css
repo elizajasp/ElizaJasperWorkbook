@@ -50,7 +50,7 @@ img.interactivemedia{
     position: absolute;
     display: block;
     margin-left: 28%;
-    margin-top: 33%;
+    margin-top: 3%;
 }
 
 footer {
@@ -64,7 +64,7 @@ img.flowers{
     width: 100%;
     padding-left: 0;
     margin-left: 0;
-    /* margin-top: 30%; */
+    margin-top: 30%;
 }
 
 /* .button-container {
