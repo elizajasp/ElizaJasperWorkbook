@@ -14,11 +14,11 @@ body {
     background-attachment: fixed;
     }
 
-.title {
-    max-width: 50%;
+/* .title {
+    max-width: 60%;
     margin: 0 auto;
-    margin-left: 23%;
-}
+    margin-left: 18%;
+} */
 
 .container {
     max-width: 1200px;
@@ -53,7 +53,56 @@ h1 {
     padding: 20px;
 }
 
+.container3 {
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
 footer {
     margin-top: 10%;
 
 }
+
+.container4 {
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 3 auto;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: black;
+  }
